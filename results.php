@@ -9,7 +9,7 @@
 <body>
     <h1>Searching a Database with PHP and MySQL</h1>
     <p>Annabelle Germond</p>
-    <p>April 25, 2026</p>
+    <p>April 22, 2026</p>
 
     <?php
     // This block checks if the form was submitted using POST
@@ -42,7 +42,7 @@
         }
     } else {
         // This block displays a message if the page is opened without submitting the form
-        echo "<div class='message'>Please submit the form first.</div>";
+        echo "<div class='message'>Please finish submitting the form.</div>";
     }
     ?>
 
