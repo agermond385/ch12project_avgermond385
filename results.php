@@ -13,7 +13,7 @@
 
     <?php
     // This block checks if the form was submitted using POST
-    if ($SERVER["REQUEST_METHOD"] == "POST") {
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // This block stores the email, removes whitespace,
         // and sanitizes it.
         $email = trim($_POST["email"]);
