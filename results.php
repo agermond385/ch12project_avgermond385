@@ -19,7 +19,7 @@
         $email = trim($_POST["email"]);
         $email = filter_var($email, FILTER_SANITIZE_EMAIL);
         // This block connects to the taus_data DB
-        $connection = mysqli_connect("localhost", "soft", "mysql", "taus_data");
+        $connection = mysqli_connect("localhost", "root", "mysql", "taus_data");
 
         //This block displays an error message if conn fails
         if (!$connection) {
