@@ -9,7 +9,7 @@
 <body>
     <h1>Searching a Database with PHP and MySQL</h1>
     <p>Annabelle Germond</p>
-    <p>April 22, 2026</p>
+    <p>April 23, 2026</p>
 
     <form action="results.php" method="post">
         <label for="email">Student Email Address</label>

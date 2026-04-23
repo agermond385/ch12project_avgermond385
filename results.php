@@ -9,7 +9,7 @@
 <body>
     <h1>Searching a Database with PHP and MySQL</h1>
     <p>Annabelle Germond</p>
-    <p>April 22, 2026</p>
+    <p>April 23, 2026</p>
 
     <?php
     // This block checks if the form was submitted using POST
